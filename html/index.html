@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>xService Loading-screen</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/loading.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	
+	<script src="./config.js"></script>
+	<script src="./script.js"></script>
+</head>
+
+<body>
+	<!-- Main Stuff -->
+	<div id="container">
+		<div class="background-container">
+			<div class="background backgroundToLeftAnim" id="background"></div>
+		</div>
+
+
+		<div class="loader-container">
+		  <div class="loader"></div>
+		</div>
+
+		<div class="logo-container">
+			<div class="logoShader"></div>
+			<div class="logo"></div>
+		</div>
+		
+		<h1 class="text-container"></h1>
+	</div>
+
+
+
+	<!-- Audio Stuff -->
+	<div id="page">
+		<audio id='music' volume='0.65' autoplay loop>
+			<source src="assets/music.mp3" type="audio/mpeg">
+			Error
+		</audio>
+
+	</div>
+</body>
+
+</html>
